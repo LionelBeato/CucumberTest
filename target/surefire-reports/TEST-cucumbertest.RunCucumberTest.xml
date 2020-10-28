@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="cucumbertest.RunCucumberTest" time="0.185" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="15+36"/>
+    <property name="user.name" value="leo"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="os.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="en"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="/home/leo/.sdkman/candidates/java/15.0.0.j9-adpt/lib/compressedrefs:/home/leo/.sdkman/candidates/java/15.0.0.j9-adpt/lib"/>
+    <property name="sun.boot.library.path" value="/home/leo/.sdkman/candidates/java/15.0.0.j9-adpt/lib/compressedrefs:/home/leo/.sdkman/candidates/java/15.0.0.j9-adpt/lib"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="jdk.extensions.version" value="15.0.0.0"/>
+    <property name="java.version" value="15"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="com.ibm.system.agent.path" value="/home/leo/.sdkman/candidates/java/15.0.0.j9-adpt/lib"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/home/leo/.sdkman/candidates/java/15.0.0.j9-adpt"/>
+    <property name="java.vm.info" value="JRE 15 Linux amd64-64-Bit Compressed References 20200922_46 (JIT enabled, AOT enabled)
+OpenJ9   - 1830b1927
+OMR      - 73d5e7623
+JCL      - 7e7613c015 based on jdk-15+36"/>
+    <property name="os.version" value="5.8.14-200.fc32.x86_64"/>
+    <property name="jdk.boot.class.path.append" value=""/>
+    <property name="sun.nio.MaxDirectMemorySize" value="3653500928"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="openj9-0.22.0"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.nio.PageAlignDirectMemory" value="false"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="user.home" value="/home/leo"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.version.date" value="2020-09-15"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="java.library.path" value="/home/leo/.sdkman/candidates/java/15.0.0.j9-adpt/lib/compressedrefs:/home/leo/.sdkman/candidates/java/15.0.0.j9-adpt/lib:/usr/lib64:/usr/lib"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="java.fullversion" value="15+36
+JRE 15 Linux amd64-64-Bit Compressed References 20200922_46 (JIT enabled, AOT enabled)
+OpenJ9   - 1830b1927
+OMR      - 73d5e7623
+JCL      - 7e7613c015 based on jdk-15+36"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/leo/Projects/java/cucumbertest"/>
+    <property name="ibm.system.encoding" value="UTF-8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="user.dir" value="/home/leo/Projects/java/cucumbertest"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+  </properties>
+  <testcase classname="Happy Feet" name="Not enough penguins were punted" time="0.159"/>
+  <testcase classname="Happy Feet" name="Enough penguins were punted" time="0.005"/>
+  <testcase classname="Is it Friday yet?" name="Sunday isn&apos;t Friday" time="0.016"/>
+  <testcase classname="Is it Friday yet?" name="Friday is Friday" time="0.005"/>
+</testsuite>

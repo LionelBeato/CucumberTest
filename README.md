@@ -1,4 +1,5 @@
 # CucumberTest
+![Java CI](https://github.com/LionelBeato/CucumberTest/workflows/Java%20CI/badge.svg)
 
 *Simple implementation of the Cucumber Test API.* 
 

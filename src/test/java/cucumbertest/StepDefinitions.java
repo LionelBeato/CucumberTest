@@ -29,7 +29,7 @@ public class StepDefinitions {
 
     @Then("I should be told {string}")
     public void iShouldBeTold(String expected){
-        assertEquals(expected, "actual");
+        assertEquals(expected, actual);
     }
 
 }

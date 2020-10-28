@@ -29,7 +29,7 @@ public class PenguinSteps {
 
     @Then("the ice caps should be {string}")
     public void theIceCapsShouldBe(String expected){
-        assertEquals(expected, "actual");
+        assertEquals(expected, actual);
     }
 
 }

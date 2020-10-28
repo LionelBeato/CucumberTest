@@ -22,4 +22,4 @@
     Scenario: Enough penguins were punted
       Given I punted 60 or more penguins
       When I check the status of the ice caps
-      Then then ice caps should be "fine"
+      Then the ice caps should be "fine"

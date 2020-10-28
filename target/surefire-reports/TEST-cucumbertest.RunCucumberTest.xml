@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="cucumbertest.RunCucumberTest" time="0.185" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="cucumbertest.RunCucumberTest" time="0.287" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="AdoptOpenJDK"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -63,7 +63,7 @@ OMR      - 73d5e7623
 JCL      - 7e7613c015 based on jdk-15+36"/>
     <property name="maven.home" value="/usr/share/maven"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B package --file pom.xml"/>
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.vm.specification.version" value="15"/>
@@ -86,8 +86,8 @@ JCL      - 7e7613c015 based on jdk-15+36"/>
     <property name="com.ibm.oti.configuration" value="scar"/>
     <property name="java.vendor.version" value="AdoptOpenJDK"/>
   </properties>
-  <testcase classname="Happy Feet" name="Not enough penguins were punted" time="0.159"/>
-  <testcase classname="Happy Feet" name="Enough penguins were punted" time="0.005"/>
-  <testcase classname="Is it Friday yet?" name="Sunday isn&apos;t Friday" time="0.016"/>
-  <testcase classname="Is it Friday yet?" name="Friday is Friday" time="0.005"/>
+  <testcase classname="Happy Feet" name="Not enough penguins were punted" time="0.232"/>
+  <testcase classname="Happy Feet" name="Enough penguins were punted" time="0.009"/>
+  <testcase classname="Is it Friday yet?" name="Sunday isn&apos;t Friday" time="0.017"/>
+  <testcase classname="Is it Friday yet?" name="Friday is Friday" time="0.029"/>
 </testsuite>

@@ -1,8 +1,7 @@
 # Feature is a functionality of your application
-
-Feature: Bowling average
   # a User Story is a user-oriented statement that describes
   # a behavior of your application
+Feature: Bowling average
   As a user
   I want to have my score calculated
   So that I can compare it to the perfect score

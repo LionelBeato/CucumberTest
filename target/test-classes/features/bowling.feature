@@ -1,9 +1,21 @@
+# Feature is a functionality of your application
+  # a User Story is a user-oriented statement that describes
+  # a behavior of your application
 Feature: Bowling average
   As a user
   I want to have my score calculated
   So that I can compare it to the perfect score
 
+  # Below would be your acceptance criteria
+  # this describes the conditions your application has to meet
+  # before being accepted
+
+  # a Scenario describes a hypothetical situation that
+  # involves the behavior of your application
   Scenario: Score doesn't match perfect score
+    # Given-When-Then is syntax taken from Gherkin
+    # Gherkin is a plain english language for writing acceptance tests
+    # In cucumber, these describe your steps
     Given a set of scores:
     | 200 |
     | 190 |
